@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:textAlignment="center"
+tools:context=".MainActivity">
+
+<TextView
+android:id="@+id/txtTitle"
+android:layout_width="match_parent"
+android:layout_height="150dp"
+android:background="#FFEB3B"
+android:gravity="center"
+android:text="MY STORY APP"
+android:textAlignment="center"
+android:textColor="@android:color/holo_orange_dark"
+android:textSize="40sp" />
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical" >
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:cardCornerRadius="12dp"
+app:cardElevation="12dp"
+app:cardUseCompatPadding="true"
+app:contentPadding="12dp">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#03A9F4"
+android:orientation="vertical">
+<ImageView
+9
+android:id="@+id/imgTitle"
+android:layout_width="match_parent"
+android:layout_height="150dp"
+app:srcCompat="@drawable/foxy" />
+<TextView
+android:id="@+id/textStory1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFEB3B"
+android:text="THE FOX AND THE GRAPES"
+android:textAlignment="center"
+android:textColor="#F44336"
+android:textSize="24sp" />
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:cardCornerRadius="12dp"
+app:cardElevation="12dp"
+app:cardUseCompatPadding="true"
+app:contentPadding="12dp">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#03A9F4"
+android:orientation="vertical">
+<ImageView
+android:id="@+id/btnStory2"
+android:layout_width="match_parent"
+android:layout_height="150dp"
+app:srcCompat="@drawable/grass" />
+<TextView
+android:id="@+id/textStory2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFEB3B"
+android:text="THE ANTS AND GRASSHOPPER"
+android:textAlignment="center"
+android:textColor="#F44336"
+android:textSize="24sp" />
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+10
+app:cardCornerRadius="12dp"
+app:cardElevation="12dp"
+app:cardUseCompatPadding="true"
+app:contentPadding="12dp">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#03A9F4"
+android:orientation="vertical">
+<ImageView
+android:id="@+id/btnStory3"
+android:layout_width="match_parent"
+android:layout_height="150dp"
+app:srcCompat="@drawable/wolf" />
+<TextView
+android:id="@+id/textStory3"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFEB3B"
+android:text="THE BOY WHO CRIED WOLF"
+android:textAlignment="center"
+android:textColor="#F44336"
+android:textSize="24sp" />
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:cardCornerRadius="12dp"
+app:cardElevation="12dp"
+app:cardUseCompatPadding="true"
+app:contentPadding="12dp">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#03A9F4"
+android:orientation="vertical">
+<ImageView
+android:id="@+id/btnStory4"
+android:layout_width="match_parent"
+android:layout_height="150dp"
+app:srcCompat="@drawable/elephant" />
+<TextView
+
+android:id="@+id/textStory4"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFEB3B"
+android:text="THE ELEPHANT AND FRIENDS"
+android:textAlignment="center"
+android:textColor="#F44336"
+android:textSize="24sp" />
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:cardCornerRadius="12dp"
+app:cardElevation="12dp"
+app:cardUseCompatPadding="true"
+app:contentPadding="12dp">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#03A9F4"
+android:orientation="vertical">
+
+<ImageView
+android:id="@+id/btnStory5"
+android:layout_width="match_parent"
+android:layout_height="150dp"
+app:srcCompat="@drawable/gold" />
+
+<TextView
+android:id="@+id/textStory5"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFEB3B"
+android:text="THE GOLDEN EGG"
+android:textAlignment="center"
+android:textColor="#F44336"
+android:textSize="24sp" />
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
